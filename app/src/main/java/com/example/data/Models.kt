@@ -107,7 +107,7 @@ interface ZenyDao {
     suspend fun clearChatHistory()
 }
 
-@Database(entities = [CalendarEvent::class, ZenyTask::class, ZenyWorkflow::class, ChatMessage::class], version = 1, exportSchema = false)
+@Database(entities = [CalendarEvent::class, ZenyTask::class, ZenyWorkflow::class, ChatMessage::class], version = 2, exportSchema = false)
 abstract class ZenyDatabase : RoomDatabase() {
     abstract fun zenyDao(): ZenyDao
 }
