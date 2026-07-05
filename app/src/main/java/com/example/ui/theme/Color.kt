@@ -1,0 +1,23 @@
+package com.example.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Zeny AI - Premium Cosmic Palette
+val CosmicBlack = Color(0xFF090B11)
+val CosmicSurface = Color(0xFF131722)
+val CosmicSurfaceElevated = Color(0xFF1E2436)
+
+val NeonCyan = Color(0xFF00F2FE)
+val NeonBlue = Color(0xFF4FACFE)
+val NeonTeal = Color(0xFF00FF87)
+
+val TextWhite = Color(0xFFFAFAFC)
+val TextGray = Color(0xFFA0A5B5)
+
+// Backward compatibility legacy values
+val Purple80 = Color(0xFFD0BCFF)
+val PurpleGrey80 = Color(0xFFCCC2DC)
+val Pink80 = Color(0xFFEFB8C8)
+val Purple40 = Color(0xFF6650a4)
+val PurpleGrey40 = Color(0xFF625b71)
+val Pink40 = Color(0xFF7D5260)
